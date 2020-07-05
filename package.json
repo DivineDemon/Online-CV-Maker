@@ -1,0 +1,28 @@
+{
+  "name": "online-cv-maker",
+  "version": "1.0.0",
+  "description": "Online CV Maker Using MEVN",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivineDemon/online-cv-maker.git"
+  },
+  "author": "Mushood Hanif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DivineDemon/online-cv-maker/issues"
+  },
+  "homepage": "https://github.com/DivineDemon/online-cv-maker#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
